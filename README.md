@@ -42,6 +42,9 @@ The pattern formed by the model without self-diffusion and the difference betwee
 
 Feel free to explore the respective directories to delve into specific aspects of the project. If you have any questions or need further clarification, please don't hesitate to reach out.
 
+
+Each subdirectory of this repository contains a separate readme file.
+
 ### Author
 
 Pawan Kumar: [@its-Pa1](https://github.com/its-Pa1)
