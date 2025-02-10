@@ -30,7 +30,7 @@ Desktop.ini
 # # Ignore PDF files
 # *.pdf
 # Ignore media files
-*.mpr
+*.mp4
 *.avi
 *.png
 *.mat
