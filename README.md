@@ -48,3 +48,5 @@ Each subdirectory of this repository contains a separate readme file.
 ### Author
 
 Pawan Kumar: [@its-Pa1](https://github.com/its-Pa1)
+
+© 2025, Pawan Kumar. All Rights Reserved.
