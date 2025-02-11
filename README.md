@@ -1,52 +1,49 @@
-# Repository Overview
+# **Repository Overview – PseudoPalisades_Hyperplasia_MultiScale**  
 
-Welcome to this GitHub repository, which houses the code corresponding to the article titled "A Flux-Limited Model for Glioma Patterning with Hypoxia-Induced Angiogenesis", DOI: https://www.mdpi.com/2073-8994/12/11/1870. The results are used in Chapter 3 of the thesis: https://kluedo.ub.rptu.de/frontdoor/index/index/docId/6573.
+Welcome to this GitHub repository, which houses the code associated with the article **"A Flux-Limited Model for Glioma Patterning with Hypoxia-Induced Angiogenesis"**, available at [MDPI](https://www.mdpi.com/2073-8994/12/11/1870). The results are also included in **Chapter 3** of the thesis, accessible at [KLUEDO](https://kluedo.ub.rptu.de/frontdoor/index/index/docId/6573).  
 
-## Key Features
+This repository primarily focuses on the **thesis results**, which provide a **more detailed and comprehensive analysis** compared to the article. The thesis covers everything from the paper while incorporating additional insights and extended discussions.  
 
-The codebase encompasses a variety of functionalities, including:
+## **Key Features**  
 
-- Full model simulations
-- Comparison between different models
-- Pattern formation analysis
+This repository provides implementations for:  
 
-## Project Structure
+- **Full model simulations** of glioma patterning  
+- **Comparison between different models** of tumor growth and diffusion  
+- **Pattern formation analysis** in the tumor microenvironment  
 
-### Scripts
+## **Project Structure**  
 
-The main script `main_all.m` runs all the below-mentioned codes, whose results are used in Chapter 3 of the thesis ("Diss_Kumar_Pawan.pdf" present in the parent directory).
+### **Scripts**  
+The main script, **`main_all.m`**, runs all the individual scripts mentioned below. The results are presented in **Chapter 3** of the thesis (*Diss_Kumar_Pawan.pdf* in the parent directory).  
 
-### Full_model_I_II (figure 3.2 and 3.3)
+### **Full_model_I_II** (Figures 3.2 & 3.3)  
+Contains codes and results for **experiments 1 and 2** described in **Chapter 3** of the thesis.  
 
-This directory contains the codes and results for experiments 1 and 2 mentioned in the 3rd Chapter of the thesis.
+### **Difference_minimal** (Figure 3.4)  
+Contains codes and results comparing the **full model** with the **old model** (minimal model), specifically looking at glioma density differences within **experiment 2**.  
 
-### Difference_minimal (Figure 3.4)
+### **Difference_self_diffusion** (Figure 3.5)  
+Includes codes and simulations comparing the **full model** with a version **without limited flux** for glioma self-diffusion (*γ₂ = 0, denominator of ph_taxis = 1*) within **experiment 2**.  
 
-The codes & results in this directory are for the difference between the full model and the old model (e.g., glioma density full model - glioma density minimal/old model) in the framework of experiment 2.
+### **Pattern** (Figure 3.6 – First & Second Row)  
+This directory contains **1D codes and videos** for the **full system in dimensional form**, along with **pattern formation results**.  
 
-### Difference_self_diffusion (figure 3.5)
+### **Pattern_difference** (Figure 3.7)  
+Includes codes and results showing the **pattern differences** between the **old and new models** within **experiment 3 (1D case)**.  
 
-In this directory, the codes and simulation represent the comparison (by difference) between the full model and the model without limited flux for glioma self-diffusion (gamma_2 = 0, the denominator of ph_taxis = 1) in the framework of experiment 2.
+### **Pattern_diff_W_L_flux** (Figure 3.6 – Third to Sixth Row)  
+Contains simulations of pattern formation for:  
+1. The model **without self-diffusion**  
+2. The **difference** between the full model and the model **without self-diffusion**  
 
-### Pattern (figure 3.6: first and second row)
+---
 
-This folder contains the 1D codes and videos for the full system in dimensional form, also the results for pattern formations.
+Each subdirectory contains a separate **README** file explaining its contents in detail.  
 
-### Pattern_difference (figure 3.7)
+Feel free to explore the directories to dive deeper into specific aspects of the project. If you have any questions or need further clarification, don't hesitate to reach out.  
 
-The pattern difference between the old and new model (experiment 3 in 1D).
+## **Author**  
+**Pawan Kumar**: [@its-Pa1](https://github.com/its-Pa1)  
 
-### Pattern_diff_W_L_flux (figure 3.6: 3rd to 6th row)
-
-The pattern formed by the model without self-diffusion and the difference between the full model and the model without self-diffusion.
-
-Feel free to explore the respective directories to delve into specific aspects of the project. If you have any questions or need further clarification, please don't hesitate to reach out.
-
-
-Each subdirectory of this repository contains a separate readme file.
-
-### Author
-
-Pawan Kumar: [@its-Pa1](https://github.com/its-Pa1)
-
-© 2025, Pawan Kumar. All Rights Reserved.
+© 2025, Pawan Kumar. All Rights Reserved.  
